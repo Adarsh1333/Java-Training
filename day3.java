@@ -102,7 +102,7 @@ public class day3 {
             System.out.println("int "+no4);
 
 
-            
+
 
 
  
