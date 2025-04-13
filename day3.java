@@ -4,7 +4,7 @@ public class day3 {
 
             //check for odd or even
             Scanner in =new Scanner(System.in);
-           /*  int b=in.nextInt();
+             int b=in.nextInt();
             if(b%2==0){
                 System.out.println("even");
 
@@ -36,10 +36,10 @@ public class day3 {
             }
             else{
                 System.out.println("no 2 is greater");
-            }*/
+            }
 
             //vowel
-          /*  char z=in.next().charAt(0);
+            char z=in.next().charAt(0);
             switch(z){
                 case 'a':
                    System.out.println("vowel"); 
@@ -64,21 +64,21 @@ public class day3 {
             int n=in.nextInt();
             for (int i = 1; i <=n; i++) {
                 System.out.println(i);
-            }*/
+            }
 
             //sum of first n natural no
-            /* 
+            
             int no3=in.nextInt();
             int sum=0;
             for (int i = 0; i <=no3; i++) {
                 sum=sum+i;
             }
             System.out.println(sum);
-             */
+             
 
 
              //multiplication table of 5
-          /*   int x=in.nextInt();
+             int x=in.nextInt();
              for (int i = 0; i <=10; i++) {
                 System.out.println(i*x);
                 
@@ -93,13 +93,16 @@ public class day3 {
              else{
                 System.out.println("not divisble by 5 & 11");
              }
-*/
+
 
              //covert float into int 
-             float z=in.nextFloat();
-            int no4=(int)z;
+             float no5=in.nextFloat();
+            int no4=(int)no5;
             System.out.println("float"+z);
             System.out.println("int "+no4);
+
+
+            
 
 
  
